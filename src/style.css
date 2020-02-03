@@ -1,0 +1,55 @@
+#header-img{
+  height: 20px;
+  float:left;
+/*   margin : 0 auto; */
+}
+#email{
+  margin-top: 100px;
+  border:0px solid black;
+  background:whitesmoke;
+  font-size:2em;
+}
+html {padding:0;}
+#header{
+ position:fixed;
+  padding:0 7%;
+  width:100%;
+  display:flex;
+      background: white;
+/*   width:100%; */
+  align-items:center;
+  margin-top : 0;
+  justify-content:space-around;
+}
+
+#submit {
+ background:yellow;
+  
+  border : 2px solid black;
+  font-size:2em;
+  margin:2% auto;
+}
+
+ul{
+  display:flex;
+  flex-direction:row;
+  
+}
+@media (max-width: 600px) {
+  header {
+    flex-wrap: wrap;
+  }
+}
+
+li{
+  list-style: none;
+  padding:0 15%;
+}
+
+a{
+  color:black;
+  text-decoration:none;
+}
+h1{
+  margin-top:6%;
+}
